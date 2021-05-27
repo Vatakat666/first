@@ -1,0 +1,94 @@
+.page
+	&-main
+		background: url(../img/header-bg.jpg) no-repeat
+		background-size: cover
+		color: #fff
+		padding-bottom: 160px
+.header
+	display: flex
+	justify-content: space-between
+	align-items: center
+	padding-top: 55px
+	padding-bottom: 180px
+	&__logo
+		display: block
+		width: 177px
+		height: 28px
+		background: url(../img/logo.svg) no-repeat
+	&-list
+		display: flex
+		justify-content: flex-end
+		align-items: center
+		font-family: 'Open Sans', serif
+		&__item
+			margin-left: 22px
+			border-bottom: 2px solid transparent
+			padding-bottom: 5px
+			border-bottom: 3px solid transparent
+			transition: all 0.3s
+			font-size: 16px
+			&:hover
+				border-bottom: 3px solid $hover-link
+		&__link
+			color: #fff
+			letter-spacing: 0.5px
+.block
+	p
+		font-family: 'Open Sans', serif
+		font-size: 15px
+	&-book
+		display: block
+		max-width: 447px
+		height: 643px
+		background-image: url(../img/books.png)
+		background-repeat: no-repeat
+		flex-basis: 500px
+	&-main
+		display: flex
+		justify-content: space-start
+	&-text
+		margin-left: 50px
+		flex-basis: calc(100% - 500px)
+		small
+			font-size: 12px
+			font-style: italic
+		&__btn
+			display: block
+			background-color: $buy-btn
+			color: #fff
+			text-decoration: none
+			max-width: 250px
+			border-radius: 3px
+			text-align: center
+			font-size: 18px
+			margin-top: 48px
+			padding: 17px 0
+			letter-spacing: 0.7px
+			margin-bottom: 19px
+		&__name
+			font-family: 'Open Sans', serif
+			font-size: 18px
+			letter-spacing: 0.7px
+		&__title
+			font-size: 48px
+			font-weight: 700
+			letter-spacing: 0.9px
+			padding-top: 30px
+			margin-bottom: 44px
+			span
+				color: #65e496
+				font-size: 18px
+				display: block
+				padding-top: 15px
+		&__description
+			font-family: 'Open Sans', serif
+			font-size: 15px
+			letter-spacing: 0.7px
+			line-height: 24px
+			margin-bottom: 24px
+			span
+				display: block
+				color: #fff
+				font-size: 18px
+
+
